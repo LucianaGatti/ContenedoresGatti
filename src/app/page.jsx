@@ -34,23 +34,23 @@ export default function Home() {
         </h1>
       </div>
 
-      <div className="flex flex-row justify-center mt-16 mb-6 ">
-        <img
-          className=" flex w-96 h-auto ml-6 border-2 border-slate-200"
-          src="camion.png"
-          alt="Descripción de la imagen"
-        />
-        <img
-          className=" flex w-96 h-auto ml-6 border-2 border-slate-200"
-          src="contenedores.png"
-          alt="Descripción de la imagen"
-        />
-        <img
-          className=" flex w-96 h-auto ml-6 border-2 border-slate-200"
-          src="camion2.png"
-          alt="Descripción de la imagen"
-        />
-      </div>
+      <div className="flex flex-col lg:flex-row justify-center mt-16 mb-6 ">
+  <img
+    className="flex w-96 h-auto ml-6 border-2 border-slate-200 max-w-full"
+    src="camion.png"
+    alt="Descripción de la imagen"
+  />
+  <img
+    className="flex w-96 h-auto ml-6 border-2 border-slate-200 max-w-full"
+    src="contenedores.png"
+    alt="Descripción de la imagen"
+  />
+  <img
+    className="flex w-96 h-auto ml-6 border-2 border-slate-200 max-w-full"
+    src="camion2.png"
+    alt="Descripción de la imagen"
+  />
+</div>
 
       <h1 className=" text-5xl mb-10 text-center">
         Pedinos tu contenedor y te lo llevamos dentro de las 24hs
@@ -120,7 +120,15 @@ export default function Home() {
           src="lasso.png"
           alt="Descripción de la imagen"
         />
-        <img className=" flex flex-row w-20 h-auto" src="sza.jpg" alt="" />
+        <img
+          className=" flex flex-row w-20 h-auto"
+          src="wala.png"
+          alt="Descripción de la imagen"
+        />
+        <img 
+          className=" flex flex-row w-20 h-auto" 
+          src="sza.jpg" 
+          alt="" />
       </div>
     </>
   );
