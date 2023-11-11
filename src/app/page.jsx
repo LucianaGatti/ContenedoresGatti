@@ -53,7 +53,7 @@ export default function Home() {
 </div>
 
       <h1 className=" text-5xl mb-10 text-center">
-        Pedinos tu contenedor y te lo llevamos dentro de las 24hs
+        Pedinos tu contenedor y te lo llevamos dentro de las 24hs!
       </h1>
       <div className="flex justify-center flex-row mb-6">
         <button
