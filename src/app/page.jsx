@@ -26,7 +26,7 @@ export default function Home() {
       <hr />
 
       <div className="flex justify-center m-10">
-        <h1 className="text-xl">
+        <h1 className="text-xl bg-slate-400 p-6">
           Estamos ubicados en la ciudad de Córdoba, con una trayectoria de mas
           de 15 años, garantizando un trabajo serio, confiable, seguro y
           puntual. Nuestra empresa cuenta con todos los seguros y habilitaciones
@@ -34,26 +34,35 @@ export default function Home() {
         </h1>
       </div>
 
-      <div className="flex flex-col lg:flex-row justify-center mt-16 mb-6 ">
-  <img
-    className="flex w-96 h-auto ml-6 border-2 border-slate-200 max-w-full"
-    src="camion.png"
-    alt="Descripción de la imagen"
-  />
-  <img
-    className="flex w-96 h-auto ml-6 border-2 border-slate-200 max-w-full"
-    src="contenedores.png"
-    alt="Descripción de la imagen"
-  />
-  <img
-    className="flex w-96 h-auto ml-6 border-2 border-slate-200 max-w-full"
-    src="camion2.png"
-    alt="Descripción de la imagen"
-  />
-</div>
+      <div className="flex flex-row justify-center mt-16 mb-6 ">
+        <img
+          className="flex w-96 h-auto ml-6 border-2 border-slate-200 max-w-full"
+          src="camion.png"
+          alt="Descripción de la imagen"
+        />
+        <img
+          className="flex w-96 h-auto ml-6 border-2 border-slate-200 max-w-full"
+          src="contenedores.png"
+          alt="Descripción de la imagen"
+        />
+        <img
+          className="flex w-96 h-auto ml-6 border-2 border-slate-200 max-w-full"
+          src="camion2.png"
+          alt="Descripción de la imagen"
+        />
+      </div>
+
+      <div className="flex justify-center m-10">
+        <ul className=' bg-zinc-700 text-slate-200 font-semibold p-10 list-disc'>
+          <li>Contenedores habilitados por la municipalidad de Córdoba</li>
+          <li>Contamos con seguro para prevenirte de cualquier accidente</li>
+          <li>Mejoramos cualquier presupuesto</li>
+          <li>Planes por 3 dias, semanales, quincenales y mensuales</li>
+        </ul>
+      </div>
 
       <h1 className=" text-5xl mb-10 text-center">
-        Pedinos tu contenedor y te lo llevamos dentro de las 24hs!
+        Pedinos tu contenedor y te lo llevamos antes de las 24hs!
       </h1>
       <div className="flex justify-center flex-row mb-6">
         <button
@@ -93,6 +102,10 @@ export default function Home() {
           </h1>
         </button>
       </div>
+
+
+
+
       <hr />
       <hr />
       <h1 className="text-3xl mb-6 flex justify-center mt-6">
@@ -125,11 +138,12 @@ export default function Home() {
           src="wala.png"
           alt="Descripción de la imagen"
         />
-        <img 
-          className=" flex flex-row w-20 h-auto" 
-          src="sza.jpg" 
-          alt="" />
+        <img className=" flex flex-row w-20 h-auto" src="sza.jpg" alt="" />
+
+        <hr />
+        <hr />
       </div>
+
     </>
   );
 }
