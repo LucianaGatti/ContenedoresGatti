@@ -14,10 +14,6 @@ const NavBar = () => {
           />
         </Link>
         <ul className="flex text-slate-200 mx-4 font-semibold shadow-md">
-          {/* <Link href="/nuestrosProductos">
-            <li className="px-4">Nuestros productos</li>
-          </Link> */}
-
           <li className="px-4 flex justify-center items-center">
             <button
               className="flex justify-center items-center text-xl"
@@ -40,8 +36,28 @@ const NavBar = () => {
             <button
               className="flex justify-center items-center text-xl"
               onClick={() =>
-                window.open ("https://wa.me/3512184006?text=¡Hola! Me gustaría obtener más información para alquilar un contenedor.", "_blank" )
-                  
+                window.open(
+                  "https://wa.me/3516122605?text=¡Hola! Me gustaría obtener más información para alquilar un contenedor.",
+                  "_blank"
+                )
+              }
+            >
+              <img
+                className="w-10 flex items-center mr-3"
+                src="580b57fcd9996e24bc43c543.png"
+                alt="Descripción de la imagen"
+              />{" "}
+              3516122605
+            </button>
+          </li>
+          <li className="px-4 flex justify-center items-center">
+            <button
+              className="flex justify-center items-center text-xl"
+              onClick={() =>
+                window.open(
+                  "https://wa.me/3512184006?text=¡Hola! Me gustaría obtener más información para alquilar un contenedor.",
+                  "_blank"
+                )
               }
             >
               <img
